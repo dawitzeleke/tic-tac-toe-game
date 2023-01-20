@@ -1,0 +1,54 @@
+body{
+    background-color: black;  
+    color: white;
+    font-size: larger;
+    
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#gameContainer{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 110px;
+}
+
+#board{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-width: 10px;
+    margin-bottom: 20px;
+}
+#board tr:first-child td{
+    border-top: 0;
+}
+#board tr:last-child td{
+    border-bottom: 0;
+}
+#board tr td:first-child{
+    border-left: 0;
+}
+#board tr td:last-child{
+    border-right: 0;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    column-gap: 30px;
+    justify-content: center; 
+    margin-bottom: 20px
+}
+h1{
+    margin-bottom: 50px;
+}

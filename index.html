@@ -1,1 +1,43 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="Tic-Tac-Toe.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <h1>Tic Tac Toe Game</h1> 
+        <h2 id="statusText"></h2>
+        <table id="board">
+            <tr>
+              <td cellIndex="0" class="cell"></td>
+              <td cellIndex="1" class="cell"></td>
+              <td cellIndex="2" class="cell"></td>
+            </tr>
+            <tr>
+              <td cellIndex="3" class="cell"></td>
+              <td cellIndex="4" class="cell"></td>
+              <td cellIndex="5" class="cell"></td>
+            </tr>
+            <tr>
+              <td cellIndex="6" class="cell"></td>
+              <td cellIndex="7" class="cell"></td>
+              <td cellIndex="8" class="cell"></td>
+            </tr>
+          </table>
+       
+        <div class="cont">
+            <div><p>Player X</p> <div id="xwins"> 0 </div></div>
+            <div><p>Draw</p> <div id="Tie"> 0</div></div>
+            <div><p>Player O</p> <div id="owins"> 0</div></div>
+        </div> 
+        
+        <button id="restartBtn" class="btn">Restart</button>
+        <button id="resetBtn" class="btn">Reset</button>
+    </div>
+    <script src="Tic-Tac-Toe.js" defer></script>
+</body>
+</html>
