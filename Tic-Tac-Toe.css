@@ -50,5 +50,25 @@ body{
     margin-bottom: 20px
 }
 h1{
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
+.btn:hover {
+    color: #fff;
+    cursor: pointer;
+}
+#resetBtn
+ {
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px #ccc;
+  }
+  #restartBtn{
+        margin-right: 20px;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px 20px;
+        box-shadow: 2px 2px 5px #ccc;
+  }
